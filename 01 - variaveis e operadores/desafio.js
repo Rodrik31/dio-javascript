@@ -10,4 +10,4 @@ Imprima no console o valor que será gasto para realizar esta viagem.
 
 let precoCombustivel = 5.79, KmPorLitro = 12, distanciaKm = 1580;
 
-console.log('O gasto medio de conbustivel foi: ' + ((distanciaKm/KmPorLitro)*precoCombustivel).toFixed(2));
+console.log('O gasto medio de combustivel foi: ' + ((distanciaKm / KmPorLitro) * precoCombustivel).toFixed(2));
