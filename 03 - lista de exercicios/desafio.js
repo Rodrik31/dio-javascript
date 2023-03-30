@@ -67,12 +67,12 @@ const preco = 100, metodoDePagamento = 'PIX';
 let precoFinal = 0;
 
 if (metodoDePagamento === 'Debito') {
-    precoFinal += preco * 0.9;
+    precoFinal = preco * 0.9;
 } else if (metodoDePagamento === 'Dinheiro' || metodoDePagamento === 'PIX') {
-    precoFinal += preco * 0.85;
+    precoFinal = preco * 0.85;
 } else if (metodoDePagamento === 'Duas vezes') {
     precoFinal = preco;
 } else {
-    precoFinal += preco * 1.1;
+    precoFinal = preco * 1.1;
 }
 console.log('O preco final do produto: R$ ' + precoFinal.toFixed(2));
